@@ -8,5 +8,5 @@ s.authors = { 'Kopus' => '421183082@qq.com' }
 s.source = { :git => 'https://github.com/keyjacky/React-Native-Navigation.git', :tag => s.version.to_s }
 s.requires_arc = true
 s.ios.deployment_target = '8.0'
-s.source_files = 'ios/**/*.{h,m}'
+s.source_files = 'ios/**/*.{h,m}'?
 end
