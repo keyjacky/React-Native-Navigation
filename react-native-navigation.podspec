@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = 'react-native-navigation'
-s.version = '1.1.x'
+s.version = '1.1.x-Modify-1'
 s.license = 'MIT'
 s.summary = 'A complete native navigation solution for React Native'
 s.homepage = 'https://github.com/keyjacky/React-Native-Navigation'
