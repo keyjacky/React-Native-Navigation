@@ -155,7 +155,7 @@
   self.bundleURL = bundleURL;
   self.sharedBridge = [[RCTBridge alloc] initWithDelegate:self launchOptions:launchOptions];
   
-  [self showSplashScreen];
+//  [self showSplashScreen];
 }
 
 -(void)showSplashScreen
