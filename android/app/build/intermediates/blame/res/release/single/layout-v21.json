@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/keepjacky/Desktop/YY_Project/UED_OA/node_modules/react-native-navigation/android/app/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/keepjacky/.android/build-cache/cc645d4f27f3b81669f8706af857ddf5526ac6ea/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/keepjacky/Desktop/YY_Project/UED_OA/node_modules/react-native-navigation/android/app/build/intermediates/res/merged/release/layout-v21/bottom_navigation_small_item.xml",
+        "source": "/Users/keepjacky/.android/build-cache/8af981e5f63a1a56bf8c84227d47e720b350ecd4/output/res/layout-v21/bottom_navigation_small_item.xml"
+    },
+    {
+        "merged": "/Users/keepjacky/Desktop/YY_Project/UED_OA/node_modules/react-native-navigation/android/app/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/keepjacky/.android/build-cache/cc645d4f27f3b81669f8706af857ddf5526ac6ea/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/keepjacky/Desktop/YY_Project/UED_OA/node_modules/react-native-navigation/android/app/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/keepjacky/.android/build-cache/cc645d4f27f3b81669f8706af857ddf5526ac6ea/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/keepjacky/Desktop/YY_Project/UED_OA/node_modules/react-native-navigation/android/app/build/intermediates/res/merged/release/layout-v21/bottom_navigation_item.xml",
+        "source": "/Users/keepjacky/.android/build-cache/8af981e5f63a1a56bf8c84227d47e720b350ecd4/output/res/layout-v21/bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/keepjacky/Desktop/YY_Project/UED_OA/node_modules/react-native-navigation/android/app/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/keepjacky/.android/build-cache/cc645d4f27f3b81669f8706af857ddf5526ac6ea/output/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

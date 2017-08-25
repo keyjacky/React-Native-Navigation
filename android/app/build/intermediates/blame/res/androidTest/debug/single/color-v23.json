@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/keepjacky/Desktop/YY_Project/UED_OA/node_modules/react-native-navigation/android/app/build/intermediates/res/merged/androidTest/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/keepjacky/.android/build-cache/cc645d4f27f3b81669f8706af857ddf5526ac6ea/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/keepjacky/Desktop/YY_Project/UED_OA/node_modules/react-native-navigation/android/app/build/intermediates/res/merged/androidTest/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/keepjacky/.android/build-cache/cc645d4f27f3b81669f8706af857ddf5526ac6ea/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/keepjacky/Desktop/YY_Project/UED_OA/node_modules/react-native-navigation/android/app/build/intermediates/res/merged/androidTest/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/Users/keepjacky/.android/build-cache/2e286c0d80d7a7c3dd74003047d6afd3055867d9/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/Users/keepjacky/Desktop/YY_Project/UED_OA/node_modules/react-native-navigation/android/app/build/intermediates/res/merged/androidTest/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/keepjacky/.android/build-cache/cc645d4f27f3b81669f8706af857ddf5526ac6ea/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/keepjacky/Desktop/YY_Project/UED_OA/node_modules/react-native-navigation/android/app/build/intermediates/res/merged/androidTest/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/keepjacky/.android/build-cache/cc645d4f27f3b81669f8706af857ddf5526ac6ea/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/keepjacky/Desktop/YY_Project/UED_OA/node_modules/react-native-navigation/android/app/build/intermediates/res/merged/androidTest/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/keepjacky/.android/build-cache/cc645d4f27f3b81669f8706af857ddf5526ac6ea/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/keepjacky/Desktop/YY_Project/UED_OA/node_modules/react-native-navigation/android/app/build/intermediates/res/merged/androidTest/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/keepjacky/.android/build-cache/cc645d4f27f3b81669f8706af857ddf5526ac6ea/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/keepjacky/Desktop/YY_Project/UED_OA/node_modules/react-native-navigation/android/app/build/intermediates/res/merged/androidTest/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/keepjacky/.android/build-cache/cc645d4f27f3b81669f8706af857ddf5526ac6ea/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/keepjacky/Desktop/YY_Project/UED_OA/node_modules/react-native-navigation/android/app/build/intermediates/res/merged/androidTest/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/keepjacky/.android/build-cache/cc645d4f27f3b81669f8706af857ddf5526ac6ea/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/keepjacky/Desktop/YY_Project/UED_OA/node_modules/react-native-navigation/android/app/build/intermediates/res/merged/androidTest/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/keepjacky/.android/build-cache/cc645d4f27f3b81669f8706af857ddf5526ac6ea/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/keepjacky/Desktop/YY_Project/UED_OA/node_modules/react-native-navigation/android/app/build/intermediates/res/merged/androidTest/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/keepjacky/.android/build-cache/cc645d4f27f3b81669f8706af857ddf5526ac6ea/output/res/color-v23/abc_tint_edittext.xml"
+    }
+]

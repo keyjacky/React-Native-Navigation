@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <item name="fragment_screen_content" type="id"/>
+    <item name="react_root_view" type="id"/>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="drawer_open">Drawer Open</string>
+    <style name="LightBox" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/modalAnimations</item>
+        <item name="android:statusBarColor" ns1:targetApi="lollipop">@android:color/transparent</item>
+    </style>
+    <style name="Modal" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/modalAnimations</item>
+        <item name="android:statusBarColor" ns1:targetApi="lollipop">@android:color/transparent</item>
+    </style>
+    <style name="modalAnimations">
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+</resources>

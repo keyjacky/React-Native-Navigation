@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/keepjacky/Desktop/YY_Project/UED_OA/node_modules/react-native-navigation/android/app/build/intermediates/res/merged/androidTest/debug/menu/search_item.xml",
+        "source": "/Users/keepjacky/Desktop/YY_Project/UED_OA/node_modules/react-native-navigation/android/app/build/intermediates/bundles/debug/res/menu/search_item.xml"
+    },
+    {
+        "merged": "/Users/keepjacky/Desktop/YY_Project/UED_OA/node_modules/react-native-navigation/android/app/build/intermediates/res/merged/androidTest/debug/menu/stub.xml",
+        "source": "/Users/keepjacky/Desktop/YY_Project/UED_OA/node_modules/react-native-navigation/android/app/build/intermediates/bundles/debug/res/menu/stub.xml"
+    }
+]
