@@ -386,11 +386,21 @@ NSString const *CALLBACK_ASSOCIATED_ID = @"RCCNavigationController.CALLBACK_ASSO
   
   if ([side isEqualToString:@"left"])
   {
+    if ([UIScreen mainScreen].scale == 3) {
+      UIBarButtonItem *spacer = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
+      spacer.width = -5;
+      [barButtonItems insertObject:spacer atIndex:0];
+    }
     [viewController.navigationItem setLeftBarButtonItems:barButtonItems animated:animated];
   }
   
   if ([side isEqualToString:@"right"])
   {
+    if ([UIScreen mainScreen].scale == 3) {
+      UIBarButtonItem *spacer = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
+      spacer.width = -5;
+      [barButtonItems insertObject:spacer atIndex:0];
+    }
     [viewController.navigationItem setRightBarButtonItems:barButtonItems animated:animated];
   }
 }
