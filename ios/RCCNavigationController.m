@@ -36,7 +36,7 @@ NSString const *CALLBACK_ASSOCIATED_ID = @"RCCNavigationController.CALLBACK_ASSO
   
   RCCViewController *viewController = [[RCCViewController alloc] initWithComponent:component passProps:passProps navigatorStyle:navigatorStyle globalProps:globalProps bridge:bridge];
   if (!viewController) return nil;
-  viewController.controllerId = props[@"id"];
+  viewController.controllerId = props[@"passProps"][@"screenInstanceID"];
   
   NSArray *leftButtons = props[@"leftButtons"];
   if (leftButtons)
@@ -270,9 +270,18 @@ NSString const *CALLBACK_ASSOCIATED_ID = @"RCCNavigationController.CALLBACK_ASSO
   if ([performAction isEqualToString:@"setTitle"] || [performAction isEqualToString:@"setTitleImage"])
   {
     NSDictionary *navigatorStyle = actionParams[@"style"];
-    [self processTitleView:self.topViewController
-                     props:actionParams
-                     style:navigatorStyle];
+      if (actionParams[@"title"] && [actionParams[@"extraParams"][@"screenID"] isKindOfClass:[NSString class]]) {
+          for (RCCViewController *rccViewController in self.viewControllers) {
+              if ([rccViewController isKindOfClass:[RCCViewController class]]) {
+                  NSString *screenID = actionParams[@"extraParams"][@"screenID"];
+                  if ([screenID isEqualToString:rccViewController.controllerId]) {
+                      [self processTitleView:rccViewController
+                                       props:actionParams
+                                       style:navigatorStyle];
+                  }
+              }
+          }
+      }
     return;
   }
   
@@ -419,7 +428,6 @@ NSString const *CALLBACK_ASSOCIATED_ID = @"RCCNavigationController.CALLBACK_ASSO
                                                            isSetSubtitle:isSetSubtitleBool];
   
   [titleViewHelper setup:style];
-  
 }
 
 - (UIStatusBarStyle)preferredStatusBarStyle {
